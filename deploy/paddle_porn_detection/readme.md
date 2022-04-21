@@ -6,6 +6,9 @@
 
 # 1. 在阿里云函数计算应用中心里立即创建
 
+[阿里云Serverless 应用中心一键体验 ](https://fcnext.console.aliyun.com/applications/create?template=paddle_porn_detection)
+
+
 # 2. 终端上输入命令创建
 
 ```shell
