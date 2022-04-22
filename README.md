@@ -2,18 +2,32 @@
 
 大家可以通过本项目提供的镜像，快速发布成可调用的Restful API服务。
 
+# porn_detection_lstm
+
+[使用模型 porn_detection_lstm](https://github.com/PaddlePaddle/PaddleHub/tree/release/v2.2/modules/text/text_review/porn_detection_lstm)
+
+| 模型名称            |  senta_bilstm  |
+| :------------------ | :------------: |
+| 类别                | 文本-文本审核  |
+| 网络                |      LSTM      |
+| 数据集              | 百度自建数据集 |
+| 是否支持Fine-tuning |       否       |
+| 模型大小            |       1M       |
+| 最新更新日期        |   2021-02-26   |
+| 数据指标            |       -        |
+
+
 # 部署方法
 
 # 1. 在阿里云函数计算应用中心里立即创建
 
-[阿里云Serverless 应用中心一键体验 ](https://fcnext.console.aliyun.com/applications/create?template=paddle_porn_detection)
-
+[阿里云Serverless 应用中心一键体验 ](https://fcnext.console.aliyun.com/applications/create?template=paddlePornDetection)
 
 # 2. 终端上输入命令创建
 
 ```shell
 
-s init paddle_porn_detection  # 初始化项目
+s init paddlePornDetection  # 初始化项目
 s deploy  # 部署项目
 
 ```
@@ -57,6 +71,6 @@ s cli registry login # 登录授权 一次就行
 s cli registry publish # 发布包
 s cli registry list # 查看子机已发布的包
 
-s init paddle_porn_detection # 自己测试应用的效果
+s init paddlePornDetection # 自己测试应用的效果
 s deploy # 部署项目试试
 ```

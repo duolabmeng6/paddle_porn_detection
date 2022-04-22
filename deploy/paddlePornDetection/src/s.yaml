@@ -7,7 +7,7 @@ vars:
   memorySize: "{{ memorySize }}"
   service:
     name: "{{ serviceName }}"
-    description: '快速部署色情文本检测 项目地址 https://github.com/duolabmeng6/paddle_porn_detection'
+    description: '快速部署色情文本检测 项目地址 https://github.com/duolabmeng6/paddlePornDetection'
 
 services:
   framework:
